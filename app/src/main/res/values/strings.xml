@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Movie Picker</string>
+
+    <string name="loading_error">Unable to fetch movie data.  Please check your internet connection.\n\nError message: %1$s</string>
+    <string name="action_map_error">No app was found to map the forecast location.  Please install a maps app on your device and try again.</string>
+
+    <string name="forecast_date">%1$tb %1$te</string>
+    <string name="forecast_time">%1$tl:%1$tM %1$tp</string>
+    <string name="forecast_temp">%1$d°%2$s</string>
+    <string name="forecast_pop">%1$d%%</string>
+    <string name="forecast_clouds">%1$d%%</string>
+    <string name="forecast_wind">%1$d%2$s</string>
+    <string name="forecast_date_time">%1$s, %2$s</string>
+
+    <string name="action_map_title">View forecast location in map</string>
+    <string name="action_share_title">Share this forecast</string>
+    <string name="action_settings_title">Settings</string>
+    <string name="action_view_movie">Link to movie web</string>
+    <string name="action_video_title">Video</string>
+
+
+    <string name="geo_uri">geo:%1$f,%2$f?z=%3$d</string>
+
+    <string name="share_forecast_text">Weather forecast from %1$s for %2$s, %3$s: %4$s with a high of %5$s, a low of %6$s, and a %7$s chance of precipitation.</string>
+
+    <!-- Strings for location preference -->
+    <string name="pref_location_key" translatable="false">pref_location</string>
+    <string name="pref_location_title">Forecast location</string>
+
+    <!-- Strings for units preference -->
+    <string name="pref_units_key" translatable="false">pref_units</string>
+    <string name="pref_units_title">Units</string>
+    <string name="pref_units_standard_value" translatable="false">standard</string>
+    <string name="pref_units_metric_value" translatable="false">metric</string>
+    <string name="pref_units_imperial_value" translatable="false">imperial</string>
+    <string name="pref_units_standard_entry">Standard</string>
+    <string name="pref_units_metric_entry">Metric</string>
+    <string name="pref_units_imperial_entry">Imperial</string>
+    <string name="pref_units_default_value" translatable="false">@string/pref_units_imperial_value</string>
+
+    <!-- Correct unit display strings for different units preference settings -->
+    <string name="pref_units_standard_temp_display">K</string>
+    <string name="pref_units_metric_temp_display">C</string>
+    <string name="pref_units_imperial_temp_display">F</string>
+    <string name="pref_units_standard_wind_display">m/s</string>
+    <string name="pref_units_metric_wind_display">m/s</string>
+    <string name="pref_units_imperial_wind_display">mph</string>
+
+    <string name="pref_genre_key" translatable="false">pref_genre</string>
+    <string name="pref_genre_title">genre title</string>
+
+    <string name="pref_language_key" translatable="false">pref_language</string>
+    <string name="pref_language_title">language title</string>
+</resources>
