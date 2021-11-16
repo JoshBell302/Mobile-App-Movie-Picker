@@ -1,7 +1,5 @@
 # CS 492 Final Project 
 
-Code and demo due by 5:00pm on Friday, 3/19/2021
-
 In this course, a final programming project will take the place of formal exams to test your understanding of the material.  The final project will involve working with a team of 3-4 people to implement a substantial Android app that utilizes the major features we’ve looked at this term.  Specifically, you and your teammates will write an app that satisfies all of these requirements:
 
 > It should have multiple activities the user can navigate between.
